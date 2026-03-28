@@ -1,13 +1,13 @@
-package com.example.demo;
+package cl.duoc.app.MsCustomerBffApplication;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DemoApplication {
+public class MsCustomerBffApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DemoApplication.class, args);
+		SpringApplication.run(MsCustomerBffApplication.class, args);
 	}
 
 }
