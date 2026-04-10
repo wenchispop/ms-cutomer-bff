@@ -35,14 +35,13 @@ Fase A: Inicializar y Conectar (Git)
   Fase B: Comandos de Construcción y Ejecución
   Una vez que tienes los archivos en tu notebook, necesitas que Spring Boot "despierte".
   
-  Descargar dependencias: mvnw install (Esto lee el pom.xml y baja todas las librerías de internet).
+  Descargar dependencias: mvn clean install (Esto lee el pom.xml y baja todas las librerías de internet).
   
-  Compilar y Ejecutar: ```cmd
-  mvnw spring-boot:run
+  Compilar y Ejecutar:
+  mvn spring-boot:run
 
 4. Estructura básica de lo que verás
-5. 
-Al abrir el proyecto en un editor (IntelliJ), verás esto:
+5. Al abrir el proyecto en un editor (IntelliJ), verás esto:
 src/main/java: Aquí vive tu código Java 25.
 src/main/resources: Aquí están las configuraciones (application.properties) y carpetas estáticas.
 pom.xml o build.gradle: El "cerebro" que dice qué versión de Java y qué librerías usa el proyecto.
