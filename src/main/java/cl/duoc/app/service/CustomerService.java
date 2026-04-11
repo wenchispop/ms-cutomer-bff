@@ -25,4 +25,16 @@ public class CustomerService {
         Customer customer1 = new Customer(1,"1-1","Elva Lazo","Elva@gmail.com");
         return customer1;
     }
+
+    public Customer getCustomerById(int id){
+        if(id == 1){
+            return new Customer(1,"1-1","Elva Lazo","Elva@gmail.com");
+        } else if (id == 2) {
+            return new Customer(2,"1-2","Elva Zura","ElvaZurero@gmail.com");
+        } else if (id == 3) {
+            return new Customer(3,"1-3","Aquiles Bailo","Aquiles_Bailo@gmail.com");
+        } else {
+            return null;
+        }
+    }
 }
