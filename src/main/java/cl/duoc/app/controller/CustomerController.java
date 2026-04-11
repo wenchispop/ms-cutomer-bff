@@ -10,7 +10,7 @@ import java.util.List;
 @RestController
 public class CustomerController {
 
-    @GetMapping("/customer")
+    @GetMapping("/customers")
         public List<Customer> getCustomers (){
         List<Customer> customerList = new ArrayList<>();
         Customer customer1 = new Customer(1,"1-1","Elva Lazo","Elva@gmail.com");
@@ -23,6 +23,12 @@ public class CustomerController {
 
         return customerList;
     }
+
+    @GetMapping("/customer1")
+        public Customer getCustomer (){
+            Customer customer1 = new Customer(1,"1-1","Elva Lazo","Elva@gmail.com");
+            return customer1;
+        }
 
     /*
     public Customer getCustomer(){
